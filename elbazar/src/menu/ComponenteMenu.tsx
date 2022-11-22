@@ -22,10 +22,13 @@ export default function ComponenteMenu(){
         <a className="nav-link" href="/categoria">Categoria</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/vliente">Cliente</a>
+        <a className="nav-link" href="/cliente">Cliente</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="/empleado">Empleado</a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="/pedido">Pedido</a>
       </li>
     </ul>
   </div>
