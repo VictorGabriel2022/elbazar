@@ -27,6 +27,9 @@ export default function ComponenteMenu(){
       <li className="nav-item">
         <a className="nav-link" href="/empleado">Empleado</a>
       </li>
+      <li className="nav-item">
+        <a className="nav-link" href="/detalleproducto">DetallePedido</a>
+      </li>
     </ul>
   </div>
 </nav>
