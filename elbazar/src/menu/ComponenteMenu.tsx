@@ -28,14 +28,14 @@ export default function ComponenteMenu(){
         <a className="nav-link" href="/empleado">Empleado</a>
       </li>
       <li className="nav-item">
-
-        <a className="nav-link" href="/pedido">Pedido</a>
+       <a className="nav-link" href="/pedido">Pedido</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="/detalleproducto">Detalle Pedido</a>
       </li>
+ 
     </ul>
   </div>
 </nav>
-    )
+    )
 }
