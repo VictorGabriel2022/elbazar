@@ -24,7 +24,7 @@ export default function ComponenteListaCliente(){
   }, []);
     return(
         <div>
-            <h1>Lista de Categoria</h1>
+            <h1>Lista de CLientes</h1>
             <div className="table-responsive">
             <table className="table table-hover table-bordered">
                 <thead className="table-dark">
