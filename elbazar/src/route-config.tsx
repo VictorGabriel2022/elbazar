@@ -6,6 +6,7 @@ import ComponenteListaDetalleproducto from "./detallepedido/ComponenteListaDetal
 import ComponenteListaProducto from "./producto/ComponenteListaProducto";
 import ComponenteListaPedido from "./pedido/ComponenteListaPedido"
 import ComponenteListaCliente from "./cliente/ComponenteListaCliente";
+import ComponenteListaempleado from "./empleado/ComponenteListaempleado";
 
 const rutas=[
 {path:'/',componente:ComponentePrincipal},
@@ -15,7 +16,8 @@ const rutas=[
 {path:'/producto',componente:ComponenteListaProducto},
 {path:'/detalleproducto',componente:ComponenteListaDetalleproducto},
 {path:'/pedido',componente:ComponenteListaPedido},
-{path:'/cliente',componente:ComponenteListaCliente}
+{path:'/cliente',componente:ComponenteListaCliente},
+{path:'/empleado',componente:ComponenteListaempleado}
 
 
 // creando un path para rutas no encontradas, esto siempre va al final
