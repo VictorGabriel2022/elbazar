@@ -42,13 +42,13 @@ export default function ComponenteListaempleado(){
                 </thead>
                 <tbody>
                 {empleado?.map((empleado)=>(
-               <tr key={empleado.id_empleado}>
-                  <th scope="row">{empleado.id_empleado}</th>
-                  <td>{empleado.nombre}</td>
-                  <td>{empleado.apellido}</td>
-                  <td>{empleado.usuario}</td>
-                  <td>{empleado.contraseña}</td>
-                  <td>{empleado.estado}</td>
+               <tr key={empleado.Idempleado}>
+                  <th scope="row">{empleado.Idempleado}</th>
+                  <td>{empleado.Nombre}</td>
+                  <td>{empleado.Apellido}</td>
+                  <td>{empleado.Usuario}</td>
+                  <td>{empleado.Contraseña}</td>
+                  <td>{empleado.Estado}</td>
                   
                   <td><a  href=""
                   className="btn btn-success">Actualizar</a></td>
