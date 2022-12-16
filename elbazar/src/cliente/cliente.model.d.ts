@@ -6,6 +6,14 @@ export interface ClienteDTO{
     apellido: string,
     fech_nac: integer,
     tip_doc: integer,
-    estado: string
+    estado: boolean
       
 } 
+export interface ClienteRegistrarDTO{
+    nombre: string,
+    apellido: string,
+    fech_nac: integer,
+    tip_doc: integer,
+    estado: boolean
+
+}

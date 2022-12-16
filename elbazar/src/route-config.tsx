@@ -7,10 +7,17 @@ import ComponenteListaProducto from "./producto/ComponenteListaProducto";
 import ComponenteListaPedido from "./pedido/ComponenteListaPedido"
 import ComponenteListaCliente from "./cliente/ComponenteListaCliente";
 import ComponenteListaempleado from "./empleado/ComponenteListaempleado";
+import ComponenteRegistrarProducto from "./producto/ComponenteRegistrarProducto";
+import ComponenteRegistrarCliente from "./cliente/ComponenteRegistrarCliente";
+import ComponenteRegistrarPedido from "./pedido/ComponenteRegistrarPedido";
+
 
 const rutas=[
 {path:'/',componente:ComponentePrincipal},
 {path:'/categoria/registrar',componente:ComponenteRegistrarCategoria},
+{path:'/producto/registrar',componente:ComponenteRegistrarProducto},
+{path:'/cliente/registrar',componente:ComponenteRegistrarCliente},
+{path:'/pedido/registrar',componente:ComponenteRegistrarPedido},
 {path:'/categoria',componente:ComponenteListaCategoria},
 {path:'/categoria/actualizar/:id',componente:ComponenteActualizarCategoria},
 {path:'/producto',componente:ComponenteListaProducto},

@@ -62,7 +62,7 @@ export default function ComponenteListaCliente(){
 
             </div>
             
-            <a href="" className="btn btn-primary">Registrar Cliente</a>
+            <a href="/cliente/registrar" className="btn btn-primary">Registrar Cliente</a>
         </div>
     );
 

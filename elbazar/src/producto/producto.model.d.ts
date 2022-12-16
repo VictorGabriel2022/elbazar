@@ -6,7 +6,14 @@ export interface ProductoDTO{
     prec_prod: integer,
     stock_prod: integer,
     id_catg: integer,
-    estado: string,
+    estado: boleean,
     categoria: integer,
       
 } 
+export interface ProductoRegistrarDTO{
+    nomb_prod: string,
+    prec_prod: integer,
+    stock_prod: integer,
+    id_catg: integer,
+    estado: boolean,
+}
