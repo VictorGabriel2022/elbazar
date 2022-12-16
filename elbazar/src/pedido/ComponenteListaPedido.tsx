@@ -49,7 +49,7 @@ export default function ComponenteListaPedido(){
       <td>{ped.hor_ped}</td>
       <td>{ped.fech_entr}</td>
       <td>{ped.obs}</td>
-      <td>{ped.estado}</td>
+      <td>{ped.estado?<td>Habilitado</td> : <td>Deshabilitado</td>}</td>
       <td><a href="#" className="btn btn-success">Actualizar</a></td>
       <td><a href="#" className="btn btn-danger">Eliminar</a></td>
     </tr>

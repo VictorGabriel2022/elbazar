@@ -48,7 +48,11 @@ export default function ComponenteListaempleado(){
                   <td>{empleado.Apellido}</td>
                   <td>{empleado.Usuario}</td>
                   <td>{empleado.Contraseña}</td>
+<<<<<<< Updated upstream
                   <td>{empleado.Estado}</td>
+=======
+                  <td>{empleado.Estado ?<td>Habilitado</td> : <td>Deshabilitado</td>}</td>
+>>>>>>> Stashed changes
                   
                   <td><a  href=""
                   className="btn btn-success">Actualizar</a></td>

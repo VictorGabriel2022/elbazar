@@ -41,9 +41,16 @@ export default function ComponenteListaCategoria(){
                <tr key={catg.id_catg}>
                   <th scope="row">{catg.id_catg}</th>
                   <td>{catg.nom_catg}</td>
-                  <td>{catg.estado}</td>
-                  <td><a  href="/categoria/actualizar/${catg.id_catg}"
-                  className="btn btn-success">Actualizar</a></td>
+                  <td>{catg.estado?<td>Habilitado</td> : <td>Deshabilitado</td>}</td>
+                  <td>
+                  <Link
+                    to={`/categoria/actualizar/${catg.id_catg}`}
+                    className="btn btn-success"
+                  >
+                    Actualizar
+                  </Link>
+                </td>
+
                   <td><a href="#" className="btn btn-danger">Eliminar</a></td>
                </tr>
    ))}

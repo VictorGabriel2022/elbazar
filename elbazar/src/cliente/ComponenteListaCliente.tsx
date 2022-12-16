@@ -47,7 +47,7 @@ export default function ComponenteListaCliente(){
                   <td>{cli.apellido}</td>
                   <td>{cli.fech_nac}</td>
                   <td>{cli.tip_doc}</td>
-                  <td>{cli.estado}</td>
+                  <td>{cli.estado ?<td>Habilitado</td> : <td>Deshabilitado</td>}</td>
                   
                   <td><a  href=""
                   className="btn btn-success">Actualizar</a></td>

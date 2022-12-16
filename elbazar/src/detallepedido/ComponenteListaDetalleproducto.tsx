@@ -50,7 +50,7 @@ export default function ComponenteListaDetalleproducto(){
       <td>{dped.cant}</td>
       <td>{dped.precio}</td>
       <td>{dped.subtotal}</td>
-      <td>{dped.estado}</td>
+      <td>{dped.estado ?<td>Habilitado</td> : <td>Deshabilitado</td>}</td>
 
     
       <td><a href="#" className="btn btn-success">Actualizar</a></td>

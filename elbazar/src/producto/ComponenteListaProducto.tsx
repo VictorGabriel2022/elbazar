@@ -47,7 +47,7 @@ export default function ComponenteListaProducto(){
       <td>{prod.prec_prod}</td>
       <td>{prod.stock_prod}</td>
       <td>{prod.id_catg}</td>
-      <td>{prod.estado}</td>
+      <td>{prod.estado?<td>Habilitado</td> : <td>Deshabilitado</td> }</td>
       <td><a href="#" className="btn btn-success">Actualizar</a></td>
       <td><a href="#" className="btn btn-danger">Eliminar</a></td>
     </tr>
