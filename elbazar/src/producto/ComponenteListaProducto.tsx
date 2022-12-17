@@ -97,7 +97,10 @@ export default function ComponenteListaProducto(){
       <td>{prod.id_catg}</td>
 
       <td>{prod.estado?<td>Habilitado</td> : <td>Deshabilitado</td> }</td>
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
       <td>
                   <Link
                     to={`/producto/actualizar/${prod.id_prod}`}
@@ -106,7 +109,10 @@ export default function ComponenteListaProducto(){
                     Actualizar
                   </Link>
                 </td>
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
       <td><a href="#" className="btn btn-danger">Eliminar</a></td>
 
     </tr>

@@ -6,7 +6,11 @@ export interface ProductoDTO{
     prec_prod: integer,
     stock_prod: integer,
     id_catg: integer,
+<<<<<<< Updated upstream
     estado: boleean,
+=======
+    estado: boolean,
+>>>>>>> Stashed changes
     categoria: integer,
       
 } 
@@ -16,4 +20,8 @@ export interface ProductoRegistrarDTO{
     stock_prod: integer,
     id_catg: integer,
     estado: boolean,
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }

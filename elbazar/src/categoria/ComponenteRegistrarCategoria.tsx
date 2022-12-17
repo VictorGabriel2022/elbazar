@@ -63,6 +63,7 @@ export default function ComponenteRegistrarCategoria() {
           </div> */}
 
           <ComponenteFormularioCajaTexto campo="nom_catg" label="Nombre:" />
+
           <div className="row">
             <div className="col-6">
               <label className="form-label">Estado:</label>

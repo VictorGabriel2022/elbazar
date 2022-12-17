@@ -6,6 +6,7 @@ import ComponenteListaDetalleproducto from "./detallepedido/ComponenteListaDetal
 import ComponenteListaProducto from "./producto/ComponenteListaProducto";
 import ComponenteListaPedido from "./pedido/ComponenteListaPedido"
 import ComponenteListaCliente from "./cliente/ComponenteListaCliente";
+<<<<<<< Updated upstream
 import ComponenteListaempleado from "./empleado/ComponenteListaempleado";
 import ComponenteRegistrarProducto from "./producto/ComponenteRegistrarProducto";
 import ComponenteRegistrarCliente from "./cliente/ComponenteRegistrarCliente";
@@ -14,6 +15,10 @@ import ComponenteRegistrarDPedido from "./detallepedido/ComponenteRegistrarDetal
 import ComponenteActualizarCliente from "./cliente/ComponenteActualizarCliente";
 import ComponenteActualizarProducto from "./producto/ComponenteActualizarProducto";
 import ComponenteActualizarPedido from "./pedido/ComponenteActualizarPedido";
+=======
+import ComponenteRegistrarProducto from "./producto/ComponenteRegistrarProducto";
+import ComponenteActualizarProducto from "./producto/ComponenteActualizarProducto";
+>>>>>>> Stashed changes
 
 
 const rutas=[
@@ -24,9 +29,12 @@ const rutas=[
 {path:'/pedido/registrar',componente:ComponenteRegistrarPedido},
 {path:'/categoria',componente:ComponenteListaCategoria},
 {path:'/categoria/actualizar/:id',componente:ComponenteActualizarCategoria},
+{path:'/producto/registrar',componente:ComponenteRegistrarProducto},
 {path:'/producto',componente:ComponenteListaProducto},
+{path:'/producto/actualizar/:id',componente:ComponenteActualizarProducto},
 {path:'/detalleproducto',componente:ComponenteListaDetalleproducto},
 {path:'/pedido',componente:ComponenteListaPedido},
+<<<<<<< Updated upstream
 {path:'/cliente',componente:ComponenteListaCliente},
 {path:'/empleado',componente:ComponenteListaempleado},
 {path:'/detalleproducto/registrar',componente:ComponenteRegistrarDPedido},
@@ -35,6 +43,9 @@ const rutas=[
 {path:'/pedido/actualizar/:id',componente:ComponenteActualizarPedido},
 {path:'/detalleproducto/actualizar/:id',componente:ComponenteActualizarPedido},
 
+=======
+{path:'/cliente',componente:ComponenteListaCliente}
+>>>>>>> Stashed changes
 
 
 

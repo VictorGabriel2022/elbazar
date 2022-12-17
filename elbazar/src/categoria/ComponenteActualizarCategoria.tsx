@@ -29,7 +29,7 @@ export default function ComponenteActualizarAutor() {
   async function ActualizarCategoria(autor: CategoriaDTO) {
     try {
       await axios.put(url + id, autor);
-      history("/autores");
+      history("/categoria");
     } catch (error) {
       console.log(error);
     }
