@@ -69,7 +69,7 @@ export default function ComponenteListaDetalleproducto(){
 
             </div>
             
-            <a href="detalleproducto/registrar" className="btn btn-primary">Registrar Libro</a>
+            <a href="detalleproducto/registrar" className="btn btn-primary">Registrar Dellate Producto</a>
         </div>
     );
 

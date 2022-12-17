@@ -37,7 +37,7 @@ export default function ComponenteActualizarCliente() {
   }
   return (
     <div>
-      <h1>Actualizar Autor</h1>
+      <h1>Actualizar Cliente</h1>
       <Formik
         initialValues={{
           id_Cliente: 0,

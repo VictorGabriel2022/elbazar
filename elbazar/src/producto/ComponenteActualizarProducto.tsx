@@ -3,11 +3,8 @@ import { ErrorMessage, Field, Formik, Form } from "formik";
 import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import * as Yup from "yup";
-<<<<<<< Updated upstream
 
 
-=======
->>>>>>> Stashed changes
 import { ProductoDTO } from "./producto.model";
 export default function ComponenteActualizarProducto() {
   const history = useNavigate();
@@ -31,15 +28,9 @@ export default function ComponenteActualizarProducto() {
     peticionesGet();
   }, []);
 
-<<<<<<< Updated upstream
   async function ActualizarProducto(producto: ProductoDTO) {
     try {
       await axios.put(url + id, producto);
-=======
-  async function ActualizarProducto(autor: ProductoDTO) {
-    try {
-      await axios.put(url + id, autor);
->>>>>>> Stashed changes
       history("/producto");
     } catch (error) {
       console.log(error);
@@ -47,7 +38,6 @@ export default function ComponenteActualizarProducto() {
   }
   return (
     <div>
-<<<<<<< Updated upstream
       <h1>Actualizar Producto</h1>
       <Formik
         initialValues={{  
@@ -58,35 +48,16 @@ export default function ComponenteActualizarProducto() {
           id_catg: "",
           categoria: "",
           estado: false,
-=======
-      <h1>Actualizar Autor</h1>
-      <Formik
-        initialValues={{
-          id_prod: 0,
-          nomb_prod: "",
-          prec_prod: "",
-          stock_prod: "",
-          id_catg: "",
-          estado: false,
-          categoria: "",
->>>>>>> Stashed changes
         }}
         onSubmit={async (valores) => {
           await ActualizarProducto({
             id_prod: valores.id_prod,
             nomb_prod: valores.nomb_prod,
             prec_prod: valores.prec_prod,
-<<<<<<< Updated upstream
             stock_prod:valores.stock_prod,
             id_catg: valores.id_catg,
             categoria: valores.categoria,
             estado: false,
-=======
-            stock_prod: valores.stock_prod,
-            id_catg: valores.id_catg,
-            estado: valores.estado,
-            categoria:valores.categoria,
->>>>>>> Stashed changes
           });
         }}
         validationSchema={Yup.object({
@@ -124,18 +95,11 @@ export default function ComponenteActualizarProducto() {
             <div className="col-6">
               <label className="form-label">Precio:</label>
               <Field
-<<<<<<< Updated upstream
                 name="codigoautor"
                 type="text"
                 value={producto?.prec_prod}
                 className="form-control"
                 readonly
-=======
-                name="nombre"
-                type="text"
-                value={producto?.prec_prod}
-                className="form-control"
->>>>>>> Stashed changes
               />
             </div>
           </div>
@@ -143,24 +107,16 @@ export default function ComponenteActualizarProducto() {
             <div className="col-6">
               <label className="form-label">Stock:</label>
               <Field
-<<<<<<< Updated upstream
                 name="codigoautor"
                 type="text"
                 value={producto?.stock_prod}
                 className="form-control"
                 readonly
-=======
-                name="nombre"
-                type="text"
-                value={producto?.stock_prod}
-                className="form-control"
->>>>>>> Stashed changes
               />
             </div>
           </div>
           <div className="row">
             <div className="col-6">
-<<<<<<< Updated upstream
               <label className="form-label">Idcategoria:</label>
               <Field
                 name="codigoautor"
@@ -168,14 +124,6 @@ export default function ComponenteActualizarProducto() {
                 value={producto?.id_catg}
                 className="form-control"
                 readonly
-=======
-              <label className="form-label">IDCategoria:</label>
-              <Field
-                name="nombre"
-                type="text"
-                value={producto?.id_catg}
-                className="form-control"
->>>>>>> Stashed changes
               />
             </div>
           </div>
@@ -223,8 +171,4 @@ export default function ComponenteActualizarProducto() {
       <hr />
     </div>
   );
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes

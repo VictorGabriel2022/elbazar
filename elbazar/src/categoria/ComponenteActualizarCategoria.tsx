@@ -36,7 +36,7 @@ export default function ComponenteActualizarAutor() {
   }
   return (
     <div>
-      <h1>Actualizar Autor</h1>
+      <h1>Actualizar Categoria</h1>
       <Formik
         initialValues={{
           id_catg: 0,

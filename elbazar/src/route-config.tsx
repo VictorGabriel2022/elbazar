@@ -6,8 +6,6 @@ import ComponenteListaDetalleproducto from "./detallepedido/ComponenteListaDetal
 import ComponenteListaProducto from "./producto/ComponenteListaProducto";
 import ComponenteListaPedido from "./pedido/ComponenteListaPedido"
 import ComponenteListaCliente from "./cliente/ComponenteListaCliente";
-<<<<<<< Updated upstream
-import ComponenteListaempleado from "./empleado/ComponenteListaempleado";
 import ComponenteRegistrarProducto from "./producto/ComponenteRegistrarProducto";
 import ComponenteRegistrarCliente from "./cliente/ComponenteRegistrarCliente";
 import ComponenteRegistrarPedido from "./pedido/ComponenteRegistrarPedido";
@@ -15,10 +13,7 @@ import ComponenteRegistrarDPedido from "./detallepedido/ComponenteRegistrarDetal
 import ComponenteActualizarCliente from "./cliente/ComponenteActualizarCliente";
 import ComponenteActualizarProducto from "./producto/ComponenteActualizarProducto";
 import ComponenteActualizarPedido from "./pedido/ComponenteActualizarPedido";
-=======
-import ComponenteRegistrarProducto from "./producto/ComponenteRegistrarProducto";
-import ComponenteActualizarProducto from "./producto/ComponenteActualizarProducto";
->>>>>>> Stashed changes
+import ComponenteActualizarDetallepedido from "./detallepedido/ComponenteActualizarDetalleproducto";
 
 
 const rutas=[
@@ -34,18 +29,13 @@ const rutas=[
 {path:'/producto/actualizar/:id',componente:ComponenteActualizarProducto},
 {path:'/detalleproducto',componente:ComponenteListaDetalleproducto},
 {path:'/pedido',componente:ComponenteListaPedido},
-<<<<<<< Updated upstream
 {path:'/cliente',componente:ComponenteListaCliente},
-{path:'/empleado',componente:ComponenteListaempleado},
 {path:'/detalleproducto/registrar',componente:ComponenteRegistrarDPedido},
 {path:'/cliente/actualizar/:id',componente:ComponenteActualizarCliente},
 {path:'/producto/actualizar/:id',componente:ComponenteActualizarProducto},
 {path:'/pedido/actualizar/:id',componente:ComponenteActualizarPedido},
-{path:'/detalleproducto/actualizar/:id',componente:ComponenteActualizarPedido},
+{path:'/detalleproducto/actualizar/:id',componente:ComponenteActualizarDetallepedido},
 
-=======
-{path:'/cliente',componente:ComponenteListaCliente}
->>>>>>> Stashed changes
 
 
 

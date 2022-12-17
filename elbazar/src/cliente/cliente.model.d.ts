@@ -4,7 +4,7 @@ export interface ClienteDTO{
     id_Cliente: integer,
     nombre: string,
     apellido: string,
-    fech_nac: integer,
+    fech_nac: string,
     tip_doc: integer,
     estado: boolean
       
@@ -12,7 +12,7 @@ export interface ClienteDTO{
 export interface ClienteRegistrarDTO{
     nombre: string,
     apellido: string,
-    fech_nac: integer,
+    fech_nac: string,
     tip_doc: integer,
     estado: boolean
 

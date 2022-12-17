@@ -66,7 +66,7 @@ export default function ComponenteListaPedido(){
 
             </div>
             
-            <a href="pedido/registrar" className="btn btn-primary">Registrar Libro</a>
+            <a href="pedido/registrar" className="btn btn-primary">Registrar Pedido</a>
         </div>
     );
 

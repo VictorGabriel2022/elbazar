@@ -171,7 +171,7 @@ export default function ComponenteActualizarDetallepedido() {
               <button type="submit" className="btn btn-success">
                 Actualizar
               </button>
-              <Link className="btn btn-secondary" to="/detallepedido">
+              <Link className="btn btn-secondary" to="/detalleproducto">
                 Cancelar
               </Link>
             </div>
