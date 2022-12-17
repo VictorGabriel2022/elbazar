@@ -7,5 +7,14 @@ export interface DPedidoDTO{
     cant: integer,
     precio: integer,
     subtotal: integer,
-    estado: true,  
+    estado: boolean,  
+} 
+
+export interface RegistrarDPedidoDTO{
+    id_pedido: integer,
+    id_prod: integer,
+    cant: integer,
+    precio: integer,
+    subtotal: integer,
+    estado: boolean,  
 } 

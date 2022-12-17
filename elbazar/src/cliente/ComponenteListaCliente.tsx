@@ -49,8 +49,14 @@ export default function ComponenteListaCliente(){
                   <td>{cli.tip_doc}</td>
                   <td>{cli.estado ?<td>Habilitado</td> : <td>Deshabilitado</td>}</td>
                   
-                  <td><a  href=""
-                  className="btn btn-success">Actualizar</a></td>
+                  <td>
+                  <Link
+                    to={`/cliente/actualizar/${cli.id_Cliente}`}
+                    className="btn btn-success"
+                  >
+                    Actualizar
+                  </Link>
+                </td>
                   <td><a href="#" className="btn btn-danger">Eliminar</a></td>
                </tr>
    ))}

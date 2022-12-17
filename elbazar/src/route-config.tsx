@@ -10,6 +10,10 @@ import ComponenteListaempleado from "./empleado/ComponenteListaempleado";
 import ComponenteRegistrarProducto from "./producto/ComponenteRegistrarProducto";
 import ComponenteRegistrarCliente from "./cliente/ComponenteRegistrarCliente";
 import ComponenteRegistrarPedido from "./pedido/ComponenteRegistrarPedido";
+import ComponenteRegistrarDPedido from "./detallepedido/ComponenteRegistrarDetallepedido";
+import ComponenteActualizarCliente from "./cliente/ComponenteActualizarCliente";
+import ComponenteActualizarProducto from "./producto/ComponenteActualizarProducto";
+import ComponenteActualizarPedido from "./pedido/ComponenteActualizarPedido";
 
 
 const rutas=[
@@ -24,7 +28,14 @@ const rutas=[
 {path:'/detalleproducto',componente:ComponenteListaDetalleproducto},
 {path:'/pedido',componente:ComponenteListaPedido},
 {path:'/cliente',componente:ComponenteListaCliente},
-{path:'/empleado',componente:ComponenteListaempleado}
+{path:'/empleado',componente:ComponenteListaempleado},
+{path:'/detalleproducto/registrar',componente:ComponenteRegistrarDPedido},
+{path:'/cliente/actualizar/:id',componente:ComponenteActualizarCliente},
+{path:'/producto/actualizar/:id',componente:ComponenteActualizarProducto},
+{path:'/pedido/actualizar/:id',componente:ComponenteActualizarPedido},
+{path:'/detalleproducto/actualizar/:id',componente:ComponenteActualizarPedido},
+
+
 
 
 // creando un path para rutas no encontradas, esto siempre va al final

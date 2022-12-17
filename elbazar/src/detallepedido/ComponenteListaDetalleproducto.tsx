@@ -53,7 +53,14 @@ export default function ComponenteListaDetalleproducto(){
       <td>{dped.estado ?<td>Habilitado</td> : <td>Deshabilitado</td>}</td>
 
     
-      <td><a href="#" className="btn btn-success">Actualizar</a></td>
+      <td>
+                  <Link
+                    to={`/detalleproducto/actualizar/${dped.id_dped}`}
+                    className="btn btn-success"
+                  >
+                    Actualizar
+                  </Link>
+                </td>
       <td><a href="#" className="btn btn-danger">Eliminar</a></td>
     </tr>
  ))}
@@ -62,7 +69,7 @@ export default function ComponenteListaDetalleproducto(){
 
             </div>
             
-            <a href="libros/registrar" className="btn btn-primary">Registrar Libro</a>
+            <a href="detalleproducto/registrar" className="btn btn-primary">Registrar Libro</a>
         </div>
     );
 

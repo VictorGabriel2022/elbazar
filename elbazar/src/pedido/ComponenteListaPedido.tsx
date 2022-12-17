@@ -50,7 +50,14 @@ export default function ComponenteListaPedido(){
       <td>{ped.fech_entr}</td>
       <td>{ped.obs}</td>
       <td>{ped.estado?<td>Habilitado</td> : <td>Deshabilitado</td>}</td>
-      <td><a href="#" className="btn btn-success">Actualizar</a></td>
+      <td>
+                  <Link
+                    to={`/pedido/actualizar/${ped.id_pedido}`}
+                    className="btn btn-success"
+                  >
+                    Actualizar
+                  </Link>
+                </td>
       <td><a href="#" className="btn btn-danger">Eliminar</a></td>
     </tr>
     ))}
